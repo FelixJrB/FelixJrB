@@ -71,9 +71,9 @@ An interactive 3D globe that plots real meteorite landings and fireball events o
 🔗 [Repo](https://github.com/FelixJrB/3d-meteorite-impacts) · [Live demo](https://threed-meteorite-impacts.onrender.com/)
 
 ### 🖼️ Picture It — RESTful Microservice API
-A backend system of two microservices I built, an **Auth service** and a **Resource service**, working together behind a single entry point. The Auth service handles registration and login, hashing passwords with **bcrypt** and issuing **JWTs** used as bearer tokens, which the Resource service validates statelessly without calling back to Auth. The Resource service exposes RESTful CRUD endpoints for image resources, stores the metadata in **MongoDB**, and delegates the actual image storage (Base64 encoded) to a separate, pre-deployed Image service. No client app, designed and tested as a pure API with Postman.
+A backend system of two microservices I built, an **Auth service** and a **Resource service**, working together behind a single entry point. The Auth service handles registration and login, hashing passwords with **bcrypt** and issuing **JWTs** used as bearer tokens, which the Resource service validates statelessly without calling back to Auth. The Resource service exposes RESTful CRUD endpoints for image resources, stores the metadata in **MongoDB**, and delegates the actual image storage (Base64 encoded) to a separate, pre-deployed Image service. No client app, designed and tested as a pure API with Postman and Thunder Client.
 `Node.js` · `Express` · `REST` · `JWT` · `bcrypt` · `MongoDB` · `Microservices`
-🔗 [Repo](https://github.com/FelixJrB/picture-it-api)
+🔗 [Repo]([https://github.com/FelixJrB/picture-it-api](https://github.com/FelixJrB/picture-it-microservices))
 
 ### 🔔 Real-Time Issue Tracker
 (Upcoming this summer)
