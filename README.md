@@ -7,7 +7,7 @@
 I build for the web with one foot in code and one in design. After a degree in Interaction Design I went all in on development, so I care about both how things work and how they feel to use.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-felixberglund.netlify.app-22C55E?style=for-the-badge&logo=netlify&logoColor=white)](https://felixberglund.netlify.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix-berglund-5a566825b/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix-berglund/)
 [![Open to work](https://img.shields.io/badge/Open_to_work-Yes-0EA5E9?style=for-the-badge)](mailto:felixjrberglund@gmail.com)
 
 </div>
