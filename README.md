@@ -102,7 +102,7 @@ A web app that mirrors GitLab issues live using **webhooks** and pushes updates 
 
 I'm open to collaborations, junior developer roles, and a good tech conversation.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix-berglund-5a566825b/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix-berglund/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-22C55E?style=for-the-badge&logo=netlify&logoColor=white)](https://felixberglund.netlify.app)
 
 </div>
