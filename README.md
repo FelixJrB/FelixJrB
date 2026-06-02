@@ -1,14 +1,3 @@
-- 👋 Hi, I’m Felix
-- 👀 I’m interested in Good food, UX Design and coding...
-- 🌱 I’m currently learning Tailwind CSS, Javascript and Mandarin ...
-- 💞️ I’m looking to collaborate on UX and UI Projects so feel free to message me...
-- 📫 How to reach me: Via Portfolio Contact 😊...
-@ https://felixberglund.netlify.app/
-<!---
-FelixJrB/FelixJrB is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
 <div align="center">
 
 # Hi, I'm Felix Berglund 👋
@@ -79,14 +68,15 @@ I build for the web with one foot in code and one in design. After a degree in I
 ### 🛰️ 3D Globe of Meteorite Impacts
 An interactive 3D globe that plots real meteorite landings and fireball events on Earth. Built with **CesiumJS** and vanilla JS on the frontend, a **Node/Express** server that proxies the **NASA Meteorite Landings** and **CNEOS Fireball** APIs, with reverse geocoding via **Nominatim** and data stored in **MongoDB**.
 `CesiumJS` · `Vanilla JS` · `Node.js` · `Express` · `MongoDB`
-🔗 [Repo](#) · [Live demo](#)
+🔗 [Repo](https://github.com/FelixJrB/3d-meteorite-impacts) · [Live demo](https://threed-meteorite-impacts.onrender.com/)
 
 ### 🖼️ Picture It — Microservice Image App
 A photo-sharing app split into independent **Auth**, **Resource** and **Image** services. Stateless authentication with **JWT**, password hashing with **bcrypt**, and image storage in **MongoDB**.
 `Node.js` · `Express` · `JWT` · `MongoDB` · `Microservices`
-🔗 [Repo](#)
+🔗 [Repo](https://github.com/FelixJrB/picture-it-microservices)
 
 ### 🔔 Real-Time Issue Tracker
+(Upcoming this summer)
 A web app that mirrors GitLab issues live using **webhooks** and pushes updates to the browser over **WebSockets**, rendered server-side with **EJS**.
 `Node.js` · `WebSockets` · `Webhooks` · `EJS`
 🔗 [Repo](#)
