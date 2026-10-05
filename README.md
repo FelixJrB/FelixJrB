@@ -16,12 +16,14 @@ I build for the web with one foot in code and one in design. After a degree in I
 
 ## About Me
 
-- Studying **Web Development** at Linnaeus University (Webbprogrammerare)
-- **BSc in Interaction Design** (Linnaeus University, 2024)
-- Currently building a **3D globe that maps real meteorite impacts** using CesiumJS and the NASA open data API
-- Comfortable across the full stack: vanilla JS frontends, Node/Express APIs, MongoDB, and deployment with Docker, Caddy and Nginx
+- Second-year **Web Development** student at Linnaeus University (Webbprogrammerare)
+- **BSc in Interaction Design** (Linnaeus University, 2024), with UX work for Siemens and two agencies in Kalmar
+- Built a **3D globe of 45,000 meteorite impacts** with CesiumJS and NASA open data, and published **visitor-module**, a TypeScript package on npm
+- Currently building a live map of user stories
+- Comfortable across the full stack: JavaScript and TypeScript, Node/Express APIs, MongoDB, and deployment with Docker and Caddy
+- Open to junior developer roles and part-time work, in Kalmar or remote
 - Swedish · English · learning Mandarin
-- Reach me on **LinkedIn** or by **email**
+- Reach me on [LinkedIn](https://www.linkedin.com/in/felix-berglund) or by [email](mailto:felixjrberglund@gmail.com)
 
 ---
 
@@ -30,6 +32,7 @@ I build for the web with one foot in code and one in design. After a degree in I
 **Languages**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -66,20 +69,36 @@ I build for the web with one foot in code and one in design. After a degree in I
 ## Featured Projects
 
 ### 3D Globe of Meteorite Impacts
+
 An interactive 3D globe that plots real meteorite landings and fireball events on Earth. Built with **CesiumJS** and vanilla JS on the frontend, a **Node/Express** server that proxies the **NASA Meteorite Landings** and **CNEOS Fireball** APIs, with reverse geocoding via **Nominatim** and data stored in **MongoDB**.
-`CesiumJS` · `Vanilla JS` · `Node.js` · `Express` · `MongoDB`
+
+`CesiumJS` · `JavaScript` · `Node.js` · `Express` · `MongoDB`
 🔗 [Repo](https://github.com/FelixJrB/3d-meteorite-impacts) · [Live demo](https://threed-meteorite-impacts.onrender.com/)
 
 ### Picture It — RESTful Microservice API
+
 A backend system of two microservices I built, an **Auth service** and a **Resource service**, working together behind a single entry point. The Auth service handles registration and login, hashing passwords with **bcrypt** and issuing **JWTs** used as bearer tokens, which the Resource service validates statelessly without calling back to Auth. The Resource service exposes RESTful CRUD endpoints for image resources, stores the metadata in **MongoDB**, and delegates the actual image storage (Base64 encoded) to a separate, pre-deployed Image service. No client app, designed and tested as a pure API with Postman and Thunder Client.
+
 `Node.js` · `Express` · `REST` · `JWT` · `bcrypt` · `MongoDB` · `Microservices`
+
 🔗 [Repo](https://github.com/FelixJrB/picture-it-microservices)
 
 ### Real-Time Issue Tracker
-(Upcoming this summer)
-A web app that mirrors GitLab issues live using **webhooks** and pushes updates to the browser over **WebSockets**, rendered server-side with **EJS**.
-`Node.js` · `WebSockets` · `Webhooks` · `EJS`
-🔗 [Repo](#)
+
+A web app that lists the issues of a GitLab project and keeps the list updated live. Issues are fetched from the GitLab REST API and rendered server-side with EJS. When something changes in GitLab, a webhook calls the server, which verifies the webhook token and pushes the event to every connected browser over WebSockets, so the list updates without a page reload. Issues can be closed and reopened directly from the app. Built with Express, hardened with Helmet, and all API keys and tokens are kept in environment variables.
+
+`Node.js` · `Express` · `WebSockets` · `Webhooks` · `GitLab API` · `EJS`
+
+🔗 [Repo](https://github.com/FelixJrB/1dv026-assignment-b2-realtime-web-application)
+
+
+### visitor-module
+
+A TypeScript module that tracks unique visitors to a website. Each visitor gets an id, and the device type and operating system are read from the browser's user agent string. No runtime dependencies, only Node's standard library. Published on npm, with unit tests in Vitest, type checking and ESLint.
+
+`TypeScript` · `Node.js` · `Vitest` · `npm`
+
+🔗 [Repo](https://github.com/FelixJrB/VisitorModule) · [npm](https://www.npmjs.com/package/visitor-module)
 
 > ℹ️ Some coursework lives on my university GitLab. Links above point to public mirrors and live demos where available.
 
@@ -89,7 +108,7 @@ A web app that mirrors GitLab issues live using **webhooks** and pushes updates 
 
 <div align="center">
 
-![Felix's GitHub stats](https://github-readme-stats.vercel.app/api?username=FelixJrB&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=FelixJrB&theme=tokyonight&hide_border=true&hide_current_streak=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FelixJrB&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
