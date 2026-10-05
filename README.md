@@ -14,18 +14,18 @@ I build for the web with one foot in code and one in design. After a degree in I
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-- 🎓 Studying **Web Development** at Linnaeus University (Webbprogrammerare)
-- 🎨 **BSc in Interaction Design** (Linnaeus University, 2024)
-- 🛰️ Currently building a **3D globe that maps real meteorite impacts** using CesiumJS and the NASA open data API
-- 🌱 Comfortable across the full stack: vanilla JS frontends, Node/Express APIs, MongoDB, and deployment with Docker, Caddy and Nginx
-- 💬 Swedish · English · learning Mandarin
-- 📫 Reach me on **LinkedIn** or by **email**
+- Studying **Web Development** at Linnaeus University (Webbprogrammerare)
+- **BSc in Interaction Design** (Linnaeus University, 2024)
+- Currently building a **3D globe that maps real meteorite impacts** using CesiumJS and the NASA open data API
+- Comfortable across the full stack: vanilla JS frontends, Node/Express APIs, MongoDB, and deployment with Docker, Caddy and Nginx
+- Swedish · English · learning Mandarin
+- Reach me on **LinkedIn** or by **email**
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 **Languages**
 
@@ -63,19 +63,19 @@ I build for the web with one foot in code and one in design. After a degree in I
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🛰️ 3D Globe of Meteorite Impacts
+### 3D Globe of Meteorite Impacts
 An interactive 3D globe that plots real meteorite landings and fireball events on Earth. Built with **CesiumJS** and vanilla JS on the frontend, a **Node/Express** server that proxies the **NASA Meteorite Landings** and **CNEOS Fireball** APIs, with reverse geocoding via **Nominatim** and data stored in **MongoDB**.
 `CesiumJS` · `Vanilla JS` · `Node.js` · `Express` · `MongoDB`
 🔗 [Repo](https://github.com/FelixJrB/3d-meteorite-impacts) · [Live demo](https://threed-meteorite-impacts.onrender.com/)
 
-### 🖼️ Picture It — RESTful Microservice API
+### Picture It — RESTful Microservice API
 A backend system of two microservices I built, an **Auth service** and a **Resource service**, working together behind a single entry point. The Auth service handles registration and login, hashing passwords with **bcrypt** and issuing **JWTs** used as bearer tokens, which the Resource service validates statelessly without calling back to Auth. The Resource service exposes RESTful CRUD endpoints for image resources, stores the metadata in **MongoDB**, and delegates the actual image storage (Base64 encoded) to a separate, pre-deployed Image service. No client app, designed and tested as a pure API with Postman and Thunder Client.
 `Node.js` · `Express` · `REST` · `JWT` · `bcrypt` · `MongoDB` · `Microservices`
 🔗 [Repo](https://github.com/FelixJrB/picture-it-microservices)
 
-### 🔔 Real-Time Issue Tracker
+### Real-Time Issue Tracker
 (Upcoming this summer)
 A web app that mirrors GitLab issues live using **webhooks** and pushes updates to the browser over **WebSockets**, rendered server-side with **EJS**.
 `Node.js` · `WebSockets` · `Webhooks` · `EJS`
@@ -98,7 +98,7 @@ A web app that mirrors GitLab issues live using **webhooks** and pushes updates 
 
 <div align="center">
 
-### 📬 Let's Connect
+### Let's Connect
 
 I'm open to collaborations, junior developer roles, and a good tech conversation.
 
