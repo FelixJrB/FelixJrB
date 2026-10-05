@@ -108,7 +108,7 @@ A TypeScript module that tracks unique visitors to a website. Each visitor gets 
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=FelixJrB&theme=tokyonight&hide_border=true&hide_current_streak=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=FelixJrB&theme=tokyonight&hide_border=true&hide_current_streak=true&hide_longest_streak=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FelixJrB&layout=compact&theme=tokyonight&hide_border=true&hide=html,css)
 
 </div>
